@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^api/produits/?$ api/produits.php [NC,L]
+RewriteRule ^api/produits/(\d+)$ api/produits.php?id=$1 [NC,L]
